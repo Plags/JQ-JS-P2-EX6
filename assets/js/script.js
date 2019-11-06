@@ -1,0 +1,20 @@
+$(function(){
+  $('#green').mouseenter(function(){
+   $('#text').css('color','green')
+ });
+  $('#red').mouseenter(function(){
+    $('#text').css('color','red')
+  });
+  $('#blue').mouseenter(function(){
+    $('#text').css('color','blue')
+  });
+  $('#blue').mouseout(function(){
+    $('#text').css('color','black')
+  });
+  $('#red').mouseout(function(){
+    $('#text').css('color','black')
+  });
+  $('#green').mouseout(function(){
+    $('#text').css('color','black')
+  });
+});
